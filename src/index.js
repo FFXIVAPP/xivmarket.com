@@ -116,7 +116,8 @@ module.exports = function (startServer = true) {
       info: {
         title: 'XIVMARKET',
         version: Pack.version
-      }
+      },
+      schemes: ['https']
     }
   }, {
     register: Limiter,
